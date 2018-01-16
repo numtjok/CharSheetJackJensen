@@ -1,0 +1,11 @@
+c:\users\jack\source\repos\ConsoleApp11\ConsoleApp11\bin\Debug\netcoreapp2.0\ConsoleApp11.deps.json
+c:\users\jack\source\repos\ConsoleApp11\ConsoleApp11\bin\Debug\netcoreapp2.0\ConsoleApp11.runtimeconfig.json
+c:\users\jack\source\repos\ConsoleApp11\ConsoleApp11\bin\Debug\netcoreapp2.0\ConsoleApp11.runtimeconfig.dev.json
+c:\users\jack\source\repos\ConsoleApp11\ConsoleApp11\bin\Debug\netcoreapp2.0\ConsoleApp11.dll
+c:\users\jack\source\repos\ConsoleApp11\ConsoleApp11\bin\Debug\netcoreapp2.0\ConsoleApp11.pdb
+c:\users\jack\source\repos\ConsoleApp11\ConsoleApp11\obj\Debug\netcoreapp2.0\ConsoleApp11.csprojResolveAssemblyReference.cache
+c:\users\jack\source\repos\ConsoleApp11\ConsoleApp11\obj\Debug\netcoreapp2.0\ConsoleApp11.csproj.CoreCompileInputs.cache
+c:\users\jack\source\repos\ConsoleApp11\ConsoleApp11\obj\Debug\netcoreapp2.0\ConsoleApp11.AssemblyInfoInputs.cache
+c:\users\jack\source\repos\ConsoleApp11\ConsoleApp11\obj\Debug\netcoreapp2.0\ConsoleApp11.AssemblyInfo.cs
+c:\users\jack\source\repos\ConsoleApp11\ConsoleApp11\obj\Debug\netcoreapp2.0\ConsoleApp11.dll
+c:\users\jack\source\repos\ConsoleApp11\ConsoleApp11\obj\Debug\netcoreapp2.0\ConsoleApp11.pdb
