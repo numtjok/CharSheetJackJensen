@@ -21,7 +21,7 @@ namespace ConsoleApp11
             class1.Race = Console.ReadLine();
             Console.WriteLine("Please enter your characters Backstory");
             class1.Backstory = Console.ReadLine();
-
+            
             Random rnd = new Random();
             //Instead of making a reroll i will just make sure that it is impossible to get 1's
             int Roll1 = rnd.Next(2, 7); 
@@ -54,7 +54,52 @@ namespace ConsoleApp11
             int Roll18 = rnd.Next(2, 7);
             int stat6 = Roll16 + Roll17 + Roll18;
 
+            Console.WriteLine("Here are your stat numbers " + stat1 + " " + stat2 + " " + stat3 + " " + stat4 + " " + stat5 + " " + stat6);
 
+            int Strength;
+            int Dexterity;
+            int Constitution;
+            int Intelligence;
+            int Wisdom;
+            int Charisma;
+
+
+
+            int[] statArray = { stat1, stat2, stat3, stat4, stat5, stat6 };
+            for (int i = 0; i < statArray.Length; i++)
+            {
+                Console.WriteLine("Which Stat would you like to assign this value? "+statArray[i]+" 1:Strength 2:Dexterity 3:Constitution 4:Intelligence 5:Wisdom 6:Charisma");
+                int choiceNum = int.Parse(Console.ReadLine());
+                if (choiceNum == 1) {
+                    Strength = statArray[i];
+                }
+                if (choiceNum == 2)
+                {
+                    Dexterity = statArray[i];
+                }
+                if (choiceNum == 3)
+                {
+                    Constitution = statArray[i];
+                }
+                if (choiceNum == 4)
+                {
+                    Intelligence = statArray[i];
+                }
+                if (choiceNum == 5)
+                {
+                    Wisdom = statArray[i];
+                }
+                if (choiceNum == 6)
+                {
+                    Charisma = statArray[i];
+                }
+                else
+                {
+                    Console.WriteLine("Something went wrong");
+                    break;
+                }
+
+            }
 
 
 
