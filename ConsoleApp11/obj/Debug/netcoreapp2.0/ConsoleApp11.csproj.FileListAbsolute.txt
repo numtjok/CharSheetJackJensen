@@ -9,3 +9,14 @@ c:\users\jack\source\repos\ConsoleApp11\ConsoleApp11\obj\Debug\netcoreapp2.0\Con
 c:\users\jack\source\repos\ConsoleApp11\ConsoleApp11\obj\Debug\netcoreapp2.0\ConsoleApp11.AssemblyInfo.cs
 c:\users\jack\source\repos\ConsoleApp11\ConsoleApp11\obj\Debug\netcoreapp2.0\ConsoleApp11.dll
 c:\users\jack\source\repos\ConsoleApp11\ConsoleApp11\obj\Debug\netcoreapp2.0\ConsoleApp11.pdb
+C:\Users\Jack\Documents\CharSheetJackJensen\ConsoleApp11\bin\Debug\netcoreapp2.0\ConsoleApp11.deps.json
+C:\Users\Jack\Documents\CharSheetJackJensen\ConsoleApp11\bin\Debug\netcoreapp2.0\ConsoleApp11.runtimeconfig.json
+C:\Users\Jack\Documents\CharSheetJackJensen\ConsoleApp11\bin\Debug\netcoreapp2.0\ConsoleApp11.runtimeconfig.dev.json
+C:\Users\Jack\Documents\CharSheetJackJensen\ConsoleApp11\bin\Debug\netcoreapp2.0\ConsoleApp11.dll
+C:\Users\Jack\Documents\CharSheetJackJensen\ConsoleApp11\bin\Debug\netcoreapp2.0\ConsoleApp11.pdb
+C:\Users\Jack\Documents\CharSheetJackJensen\ConsoleApp11\obj\Debug\netcoreapp2.0\ConsoleApp11.csprojResolveAssemblyReference.cache
+C:\Users\Jack\Documents\CharSheetJackJensen\ConsoleApp11\obj\Debug\netcoreapp2.0\ConsoleApp11.csproj.CoreCompileInputs.cache
+C:\Users\Jack\Documents\CharSheetJackJensen\ConsoleApp11\obj\Debug\netcoreapp2.0\ConsoleApp11.AssemblyInfoInputs.cache
+C:\Users\Jack\Documents\CharSheetJackJensen\ConsoleApp11\obj\Debug\netcoreapp2.0\ConsoleApp11.AssemblyInfo.cs
+C:\Users\Jack\Documents\CharSheetJackJensen\ConsoleApp11\obj\Debug\netcoreapp2.0\ConsoleApp11.dll
+C:\Users\Jack\Documents\CharSheetJackJensen\ConsoleApp11\obj\Debug\netcoreapp2.0\ConsoleApp11.pdb
