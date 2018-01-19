@@ -1,12 +1,14 @@
 ﻿using System;
+using System.IO;
+using System.Text;
 
 namespace ConsoleApp11
 {
-    class Program
+    class CreateChar
     {
         static void Main(string[] args)
         {
-
+            string path = @"C:\MyCharacter.txt";
             Class1 class1 = new Class1();
             //Input Character information
             Console.WriteLine("Please enter the first name of your Character:");
@@ -56,50 +58,15 @@ namespace ConsoleApp11
 
             Console.WriteLine("Here are your stat numbers " + stat1 + " " + stat2 + " " + stat3 + " " + stat4 + " " + stat5 + " " + stat6);
 
-            int Strength;
-            int Dexterity;
-            int Constitution;
-            int Intelligence;
-            int Wisdom;
-            int Charisma;
-
-
-
-            int[] statArray = { stat1, stat2, stat3, stat4, stat5, stat6 };
-            for (int i = 0; i < statArray.Length; i++)
+            if (!File.Exists(path))
             {
-                Console.WriteLine("Which Stat would you like to assign this value? "+statArray[i]+" 1:Strength 2:Dexterity 3:Constitution 4:Intelligence 5:Wisdom 6:Charisma");
-                int choiceNum = int.Parse(Console.ReadLine());
-                if (choiceNum == 1) {
-                    Strength = statArray[i];
-                }
-                if (choiceNum == 2)
-                {
-                    Dexterity = statArray[i];
-                }
-                if (choiceNum == 3)
-                {
-                    Constitution = statArray[i];
-                }
-                if (choiceNum == 4)
-                {
-                    Intelligence = statArray[i];
-                }
-                if (choiceNum == 5)
-                {
-                    Wisdom = statArray[i];
-                }
-                if (choiceNum == 6)
-                {
-                    Charisma = statArray[i];
-                }
-                else
-                {
-                    Console.WriteLine("Something went wrong");
-                    break;
-                }
-
+                string CreateChar = class1.FirstName + " " + class1.LastName + Environment.NewLine + class1.Age + Environment.NewLine + class1.Alignment + Environment.NewLine + class1.Race + Environment.NewLine + class1.Backstory + Environment.NewLine + "Here are your stat numbers " + stat1 + " " + stat2 + " " + stat3 + " " + stat4 + " " + stat5 + " " + stat6;
+                File.WriteAllText(path, CreateChar);
             }
+
+            Console.WriteLine("The file has been saved to your C Drive");
+
+            
 
 
 
